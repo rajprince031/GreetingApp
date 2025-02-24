@@ -1,0 +1,33 @@
+16:09:40.0900 [main] INFO  c.g.G.GreetingAppApplication - Starting GreetingAppApplication using Java 23.0.2 with PID 34201 (/Users/princeraj/Desktop/Capgemini-Training/GreetingApp/target/classes started by princeraj in /Users/princeraj/Desktop/Capgemini-Training/GreetingApp)
+16:09:40.0930 [main] INFO  c.g.G.GreetingAppApplication - No active profile set, falling back to 1 default profile: "default"
+16:09:40.5450 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+16:09:40.5520 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:09:40.5530 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:09:40.5530 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+16:09:40.5750 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:09:40.5760 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 439 ms
+16:09:40.7330 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:09:40.7420 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+16:09:40.7470 [main] INFO  c.g.G.GreetingAppApplication - Started GreetingAppApplication in 0.875 seconds (process running for 1.161)
+16:09:57.5890 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:09:57.5890 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:09:57.5900 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+16:09:57.6090 [http-nio-8080-exec-1] INFO  c.g.G.controllers.HTTPSControllers - Calling get Method
+16:26:12.4180 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+16:26:12.4340 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+16:26:14.4420 [main] INFO  c.g.G.GreetingAppApplication - Starting GreetingAppApplication using Java 23.0.2 with PID 34390 (/Users/princeraj/Desktop/Capgemini-Training/GreetingApp/target/classes started by princeraj in /Users/princeraj/Desktop/Capgemini-Training/GreetingApp)
+16:26:14.4430 [main] INFO  c.g.G.GreetingAppApplication - No active profile set, falling back to 1 default profile: "default"
+16:26:14.9110 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+16:26:14.9180 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:26:14.9190 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:26:14.9200 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+16:26:14.9420 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:26:14.9420 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 461 ms
+16:26:15.0910 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:26:15.1010 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+16:26:15.1050 [main] INFO  c.g.G.GreetingAppApplication - Started GreetingAppApplication in 0.886 seconds (process running for 1.199)
+16:26:21.1350 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:26:21.1360 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:26:21.1370 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:26:21.1580 [http-nio-8080-exec-1] INFO  c.g.G.controllers.HTTPSControllers - Calling get Method
+16:26:25.3620 [http-nio-8080-exec-2] INFO  c.g.G.controllers.HTTPSControllers - Calling get Method
