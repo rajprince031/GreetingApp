@@ -48,3 +48,23 @@
 16:31:37.8040 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 16:31:37.8060 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
 16:31:37.8260 [http-nio-8080-exec-1] INFO  c.g.G.controllers.HTTPSControllers - Calling get Method
+16:36:44.2550 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+16:36:44.2670 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+16:48:16.7600 [main] INFO  c.g.G.GreetingAppApplication - Starting GreetingAppApplication using Java 23.0.2 with PID 34853 (/Users/princeraj/Desktop/Capgemini-Training/GreetingApp/target/classes started by princeraj in /Users/princeraj/Desktop/Capgemini-Training/GreetingApp)
+16:48:16.7610 [main] INFO  c.g.G.GreetingAppApplication - No active profile set, falling back to 1 default profile: "default"
+16:48:17.2510 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+16:48:17.2580 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:48:17.2600 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:48:17.2600 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+16:48:17.2840 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:48:17.2850 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 484 ms
+16:48:17.4390 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:48:17.4490 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+16:48:17.4540 [main] INFO  c.g.G.GreetingAppApplication - Started GreetingAppApplication in 0.909 seconds (process running for 1.219)
+16:48:47.3730 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:48:47.3730 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:48:47.3750 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+16:48:47.4040 [http-nio-8080-exec-1] INFO  c.g.G.controllers.HTTPSControllers - Calling get Method
+16:48:54.0490 [http-nio-8080-exec-2] INFO  c.g.G.controllers.HTTPSControllers - Calling get Method
+16:49:03.9800 [http-nio-8080-exec-3] INFO  c.g.G.controllers.HTTPSControllers - Calling get Method
+16:49:12.8680 [http-nio-8080-exec-4] INFO  c.g.G.controllers.HTTPSControllers - Calling get Method
