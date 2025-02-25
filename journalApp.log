@@ -147,3 +147,44 @@
 10:55:16.3810 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 10:55:16.3830 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 10:55:16.3840 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:09:29.5010 [main] INFO  c.g.G.GreetingAppApplication - Starting GreetingAppApplication using Java 23.0.2 with PID 38791 (/Users/princeraj/Desktop/Capgemini-Training/GreetingApp/target/classes started by princeraj in /Users/princeraj/Desktop/Capgemini-Training/GreetingApp)
+11:09:29.5030 [main] INFO  c.g.G.GreetingAppApplication - No active profile set, falling back to 1 default profile: "default"
+11:09:29.8140 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+11:09:29.8420 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+11:09:30.0840 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+11:09:30.0910 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:09:30.0920 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:09:30.0930 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+11:09:30.1210 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:09:30.1220 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 594 ms
+11:09:30.1750 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:09:30.2590 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:b2c5618b-32e6-4d8f-9022-b250f3fa6ef4 user=SA
+11:09:30.2600 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:09:30.3000 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+11:09:30.3380 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+11:09:30.3610 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+11:09:30.5010 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+11:09:30.5460 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+11:09:30.9160 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+11:09:30.9270 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+11:09:31.0560 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11:09:31.2000 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+11:09:31.2100 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+11:09:31.2150 [main] INFO  c.g.G.GreetingAppApplication - Started GreetingAppApplication in 1.928 seconds (process running for 2.23)
+11:10:36.0800 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11:10:36.0800 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:10:36.0850 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+11:10:36.1520 [http-nio-8080-exec-2] INFO  c.g.G.c.GreetingMessageController - Saving the request for greeting message : null
+11:10:36.9290 [http-nio-8080-exec-3] INFO  c.g.G.c.GreetingMessageController - Saving the request for greeting message : null
+11:10:37.7880 [http-nio-8080-exec-4] INFO  c.g.G.c.GreetingMessageController - Saving the request for greeting message : null
+11:10:41.9170 [http-nio-8080-exec-5] INFO  c.g.G.c.GreetingMessageController - Saving the request for greeting message : null
+11:12:21.1420 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+11:12:30.1070 [http-nio-8080-exec-9] INFO  c.g.G.c.GreetingMessageController - Get the message : 1 
+11:12:33.7980 [http-nio-8080-exec-10] INFO  c.g.G.c.GreetingMessageController - Get the message : 4 
