@@ -26,15 +26,21 @@ public class GreetingMessageController{
     }
 
     @GetMapping
-    public List<GreetingMessageDTO> getAllMessages(){
+    public List<GreetingMessageDTO> getAllGreetings(){
         logger.info("Get the list of all the messages");
-        return greetingMessageService.getAllMessages();
+        return greetingMessageService.getAllGreetings();
     }
 
     @GetMapping("/{id}")
     public String getMessageById(@PathVariable Integer id){
         logger.info("Get the message : {} ",id);
         return greetingMessageService.getMessageById(id);
+    }
+
+    @GetMapping("/getAllMessages")
+    public List<String> getAllMessages(){
+        logger.info("Get All messages Only");
+        return greetingMessageService.getAllMessages();
     }
 
 }

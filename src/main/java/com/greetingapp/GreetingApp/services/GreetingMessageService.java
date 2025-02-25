@@ -26,7 +26,7 @@ public class GreetingMessageService {
         return modelMapper.map(greetingRepository.save(greetingMessageEntity),GreetingMessageDTO.class);
     }
 
-    public List<GreetingMessageDTO> getAllMessages() {
+    public List<GreetingMessageDTO> getAllGreetings() {
 
         return greetingRepository
                 .findAll()
@@ -39,5 +39,13 @@ public class GreetingMessageService {
         GreetingMessageEntity greetingMessageEntity =  greetingRepository.findById(id).orElse(null);
         if(greetingMessageEntity == null) return "No Messages";
         return greetingMessageEntity.getMessage();
+    }
+
+    public List<String> getAllMessages() {
+        return greetingRepository
+                .findAll()
+                .stream()
+                .map(greetingMessageEntity1 -> greetingMessageEntity1.getMessage())
+                .collect(Collectors.toList());
     }
 }
